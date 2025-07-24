@@ -85,20 +85,11 @@ Example: `0x27A` → 634 → (634/10)-40 = 23.4°C
 | 10     | SEC_L    | SEC_3-SEC_0   | Second (ones place)             | 0-9             |
 | 11     | YEAR_H   | YR_7-YR_4     | Year (tens place)               | 0-9             |
 | 12     | YEAR_L   | YR_3-YR_0     | Year (ones place)               | 0-9             |
-| 13     | MONTH_H  | TZ_1,TZ_0     | Timezone offset                 | See table below |
+| 13     | MONTH_H  | TZ_1,TZ_0     | Timezone offset                 |                 |
 |        |          | MON_1,MON_0   | Month (tens place)              | 0-1             |
 | 14     | MONTH_L  | MON_3-MON_0   | Month (ones place)              | 0-9             |
 | 15     | DAY_H    | DAY_7-DAY_4   | Day (tens place)                | 0-3             |
 | 16     | DAY_L    | DAY_3-DAY_0   | Day (ones place)                | 0-9             |
-
-### Timezone Encoding (DCF)
-
-| TZ_1 | TZ_0 | Offset | Timezone          |
-|------|------|--------|-------------------|
-| 0    | 0    | +0     | UTC               |
-| 0    | 1    | +1     | CET               |
-| 1    | 0    | +2     | EET               |
-| 1    | 1    | -1     | Reserved          |
 
 ## System Flags
 
