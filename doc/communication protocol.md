@@ -2,12 +2,10 @@
 
 ## Technical Parameters
 
-- **Carrier Frequency:** 433.925 MHz ± 75 kHz
+- **Carrier Frequency:** 433.925 MHz
 - **Modulation:** ASK (Amplitude Shift Keying)
-- **Data Encoding:** Manchester
 - **Packet Length:** 20 nibbles (80 bits)
-- **Checksum Algorithm:** CRC-8 (Polynomial 0x07)
-- **Transmission Interval:** 60 seconds (typical)
+- **Checksum Algorithm:** CRC-8
 
 ## Protocol Architecture
 
